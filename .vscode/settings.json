@@ -1,8 +1,0 @@
-{
-    "terminal.integrated.env.linux": {
-        "PATH": "/home/paul/.platformio/penv/bin:/home/paul/.platformio/penv:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
-        "PLATFORMIO_CALLER": "vscode"
-    },
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
-}
