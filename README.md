@@ -9,8 +9,11 @@ drive two motors of a stunt rc car ( tank style ).
 
 Schematic
 -------------------------
+Schematic:
+![Schematic1](./schematic/new_easyeda/Schematic_RC-ESC_2020-12-18_19-55-47.svg)
 
-![Schematic](./schematic/RC-ESC-schematic_Steckplatine.png)
+PCB:
+![Schematic1](./schematic/new_easyeda/PCB_FirstPrototype_2020-12-18_19-56-21.svg)
 
 
 Development Environment
