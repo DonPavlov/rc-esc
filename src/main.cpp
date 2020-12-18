@@ -20,6 +20,7 @@ static constexpr uint32_t deadhi = rc_neutral + rc_deadband;
 static constexpr uint32_t correction_val = 3000;
 
 static constexpr uint8_t LED_PIN = 13;
+static constexpr uint8_t MODE_PIN = 5;
 
 // int0
 static constexpr int chR = 7; // rechts hoch 1100 / runter 1820 // CH 1
@@ -57,8 +58,9 @@ void setup()
   // Set input pins
   pinMode(chR, INPUT);
   pinMode(chL, INPUT);
-
+  pinMode(MODE_PIN, OUTPUT);
   pinMode(LED_PIN, OUTPUT);
+  digitalWrite(MODE_PIN, HIGH);
 
   enableInterrupt(chR, convertRightStick, CHANGE);
   enableInterrupt(chL, convertLeftStick, CHANGE);
